@@ -1,0 +1,68 @@
+.documents{
+    width: 100%;
+    padding-bottom: 1em;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.document-container{
+    width: 350px;
+    height: 230px;
+    margin: 2em; 
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    position: relative;
+    background-color: #4A1481;
+}
+
+.document-container p{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.button--small{
+    left: 30%;
+    position: absolute;
+    bottom: 2em;
+}
+
+.quotes-section{
+    width: 100%;
+    height: 525px;
+    text-align: center;
+    justify-content: center;
+    background-color: #4A1481;
+}
+
+.quotes-section h1{
+    margin: 0;
+    padding-top: 2em;
+    font-size: 30px;
+    color: white;
+}
+
+.quotes{
+    width: 80%;
+    height: 300px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.quotes-container{
+    width: 400px;
+    height: 250px;
+    margin: 2em;
+}
+
+.quotes-container p{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}

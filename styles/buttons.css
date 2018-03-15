@@ -1,0 +1,52 @@
+.button{
+    width: 40%;
+    height: 5em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #4A1481;
+}
+
+.button a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.text-wrapper .button:hover{
+    background-color: rgb(50, 0, 116);
+}
+
+.button--small{
+    width: 150px;
+    height: 3em;
+    background-color: white;
+}
+
+.button--small a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.simple-button{
+    width: 10%;
+    height: 4em;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+
+}
+
+.simple-button:hover{
+    background: white;
+}
+
+.simple-button:hover a{
+    color:  #4A1481;
+}
+
+.simple-button a{
+    color: white;
+    text-decoration: none;
+}
